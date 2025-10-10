@@ -1,0 +1,5 @@
+.gradientContainer {
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(red, blue);
+}

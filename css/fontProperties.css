@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "BBH Sans Bartle", sans-serif;
+    text-decoration: line-through;
+    text-align: center;
+}
