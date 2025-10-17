@@ -1,0 +1,14 @@
+.parent {
+    border: 3px solid black;
+    width: 450px;
+}
+
+.parent .banner img {
+    width: 100%;
+}
+
+.parent .text p {
+    /* position: relative; */
+    position: absolute;
+    top: 35px;
+}
