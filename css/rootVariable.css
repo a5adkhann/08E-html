@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
+
+:root {
+    --bg : #F85606;
+    --ff : "BBH Sans Bartle", sans-serif;
+}
+
+
+h2 {
+    font-family: var(--ff);
+    background-color: var(--bg);
+}

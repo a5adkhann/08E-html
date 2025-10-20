@@ -1,14 +1,22 @@
-.parent {
-    border: 3px solid black;
-    width: 450px;
+/* .parent > .card {
+    border: 2px solid lightgray;
+    width: 300px;   
 }
 
-.parent .banner img {
+.parent > .card > .card-banner > img {
     width: 100%;
-}
+} */
 
-.parent .text p {
+/* .parent > .card > .card-text { */
     /* position: relative; */
-    position: absolute;
-    top: 35px;
+    /* position: absolute; */
+    /* top: 45px; */
+/* } */
+
+
+.para {
+    background-color: tomato;
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
 }

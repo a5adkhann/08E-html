@@ -1,0 +1,42 @@
+/* #myHeading {
+    background-color: blue;
+}
+
+#myHeading:hover {
+    background-color: red;
+}
+
+
+a:hover {
+    background-color: red;
+}
+
+a:visited {
+    background-color: blue;
+}
+
+a:active {
+    background-color: yellow;
+}
+ */
+
+.parent p:first-child {
+    background-color: yellow;
+}
+
+
+.parent p:last-child {
+    background-color: brown;
+}
+
+.parent p:nth-child(2){
+    background-color: blue;
+}
+
+.parent p:nth-child(3){
+    background-color: green;
+}
+
+p::first-letter {
+    color: yellow;
+}
