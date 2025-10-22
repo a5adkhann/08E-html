@@ -2,21 +2,47 @@
     border: 2px solid lightgray;
     width: 300px;   
 }
-
 .parent > .card > .card-banner > img {
     width: 100%;
 } */
-
 /* .parent > .card > .card-text { */
     /* position: relative; */
     /* position: absolute; */
     /* top: 45px; */
 /* } */
 
-
-.para {
+/* .para {
     background-color: tomato;
-    /* position: fixed; */
+    position: fixed;
     position: sticky;
     top: 0px;
+} */
+
+.parent {
+    border: 3px solid green;
+    width: 800px;
+    height: 400px;
+}
+
+.child1 {
+    background-color: yellow;
+    width: 200px;
+    height: 110px;
+}
+
+.child2 {
+    background-color: blue;
+    width: 200px;
+    height: 110px;
+    position: relative;
+    top: 40px;
+    z-index: 0;
+}
+
+.child3 {
+    background-color: red;
+    width: 200px;
+    height: 110px;
+    position: relative;
+    z-index: 1;
 }
