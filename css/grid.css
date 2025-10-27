@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 250px;
+    border: 1px solid red;
+}
+
+.card > .card-banner > img {
+    width: 100%;
+}
+
+.card > .card-content {
+    padding: 15px;
+}
