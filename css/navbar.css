@@ -50,3 +50,12 @@
     align-items: center;
     color: white;
 }
+
+.navbar > .items > ul > li{
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar > .items > ul > li:hover {
+    transform: translateY(-5px);
+    font-weight: bold;
+}
