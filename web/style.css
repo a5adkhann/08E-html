@@ -57,3 +57,11 @@
     place-items: center;
     margin-top: 45px;
 }
+
+
+@media screen and (max-width: 375px){
+    .about-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding-inline: 40px;
+    }
+}
